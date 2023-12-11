@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header {
+    background-color: black;
+    color: #85FFBD;
+    text-align: center;
+    font-size: 40px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p {
+    width: 80%;
+    text-align: center;
+}
+
+.header button {
+    width: 20%;
+    height: 100%;
+    align-self: flex-end;
+    font-size: 20px;
+    background-color: black;
+    color: #85FFBD;
+}
+
+.regform {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    max-width: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow-y: auto;
+}
+
+.section {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    width: 30%;
+    margin: 10px;
+}
+
+input {
+    width: 70%;
+}
+
+.regform button {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: inset;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.regform :last-child {
+    margin-bottom: 10px;
+}
+
+.regform :first-child {
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #85FFBD;
+    color: black;
+}
+.pass{
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: inset;
+    height: 40px;
+    margin-top: 10px;
+}
